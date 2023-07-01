@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+}
+#nav{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    align-items:center; 
+}
+
+#navbar>div{
+    align-items: center;    
+}
+
+#logos{
+    width:150px;  
+    display: flex;    
+}
+#firstlogo img{
+    width:30px;
+}
+#firstlogo{
+    margin: 20px;
+}
+#secondlogo img{
+    width:100px;
+}
+ #ybLogo{
+    width: 100px;  
+}
+ 
+#navbar>div input{
+    width:500px;
+    height:30px;
+    border-radius:50px ;
+}
+
+#inputs{
+    width:600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#profiles img{
+    width:30px;  
+    margin:auto;
+}
+#profiles{
+    justify-content: end;
+    width:200px;
+    display: flex;
+}
+#inputs img{
+    width:30px;
+}
+
+
+/* video container style */
+#container{
+    width:95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:30px;
+}
+ 
+#container>div img{
+    width: 100%;
+}
